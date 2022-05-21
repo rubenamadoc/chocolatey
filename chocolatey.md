@@ -1,9 +1,10 @@
 # Uso
-Chcolatey se utiliza a través de la PowerShell por un comando llamado choco. Voy a explicar tres modos con el que podemos disfrutar de esta magnífica herramienta.
+Chocolatey se utiliza a través de la PowerShell por un comando llamado choco. Voy a explicar tres modos con el que podemos disfrutar de esta magnífica herramienta.
+
 ## Search
 Este modo nos permitirá buscar paquetes en los repositorios. Su estructura es "choco search nombre_paquete".
 Utilizaré de ejemplo mozilla.
-choco search mozilla
+"choco search mozilla"
 [EJEMPLO](https://github.com/rubenamadoc/chocolatey/blob/main/IMG/Busqueda.png)
 
 ## Install
@@ -17,6 +18,6 @@ Al ejecutar el paquete deseado. Chocolatey le preguntará por la ejecución de a
 
 ## Uninstall
 Desinstala paquetes.
-choco uninstall nombre_paquete.
+"choco uninstall nombre_paquete."
 En este caso también preguntará si queremos ejecutar todos los scripts o uno a uno.
 [EJEMPLO](https://github.com/rubenamadoc/chocolatey/blob/main/IMG/Desinstalacion.png)
